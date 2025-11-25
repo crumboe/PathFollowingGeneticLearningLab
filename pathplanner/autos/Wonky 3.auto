@@ -1,0 +1,67 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Tag18 to before Midline"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Step2"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "step3"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "W_1"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "W_2"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "W_3"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "W_4"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "W_5"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "W_6"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}

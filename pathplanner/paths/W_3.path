@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.068063318779444,
+        "y": 5.007
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.068063318779445,
+        "y": 6.739050807568876
+      },
+      "isLocked": false,
+      "linkedName": "reef_3"
+    },
+    {
+      "anchor": {
+        "x": 5.623746803261875,
+        "y": 3.986001300118283
+      },
+      "prevControl": {
+        "x": 7.623746803261875,
+        "y": 3.986001300118283
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "reef_4"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 2.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "reversed": false,
+  "folder": "Wonky3",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -119.99999999999999
+  },
+  "useDefaultConstraints": true
+}

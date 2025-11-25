@@ -1,0 +1,144 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 14.54,
+        "y": 4.0
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 15.54,
+        "y": 4.0
+      },
+      "isLocked": true,
+      "linkedName": "parked oposite_reef"
+    },
+    {
+      "anchor": {
+        "x": 13.0,
+        "y": 1.5
+      },
+      "prevControl": {
+        "x": 16.0,
+        "y": 1.4999999999999996
+      },
+      "nextControl": {
+        "x": 12.0,
+        "y": 1.5000000000000002
+      },
+      "isLocked": true,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 10.6,
+        "y": 4.0
+      },
+      "prevControl": {
+        "x": 10.6,
+        "y": 2.0
+      },
+      "nextControl": {
+        "x": 10.6,
+        "y": 6.0
+      },
+      "isLocked": true,
+      "linkedName": "In Front of Oposite Reef"
+    },
+    {
+      "anchor": {
+        "x": 7.0,
+        "y": 4.0
+      },
+      "prevControl": {
+        "x": 7.0,
+        "y": 6.0
+      },
+      "nextControl": {
+        "x": 7.0,
+        "y": 2.0
+      },
+      "isLocked": true,
+      "linkedName": "Behind Tag 18 Reef"
+    },
+    {
+      "anchor": {
+        "x": 4.5,
+        "y": 1.5
+      },
+      "prevControl": {
+        "x": 6.5,
+        "y": 1.4999999999999998
+      },
+      "nextControl": {
+        "x": 2.5,
+        "y": 1.5000000000000002
+      },
+      "isLocked": true,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.35,
+        "y": 4.0
+      },
+      "prevControl": {
+        "x": 1.35,
+        "y": 4.0
+      },
+      "nextControl": null,
+      "isLocked": true,
+      "linkedName": "In Front Of Tag 18"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 5,
+      "rotationDegrees": 0.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [
+    {
+      "fieldPosition": {
+        "x": 4.5,
+        "y": 4.0
+      },
+      "rotationOffset": 0.0,
+      "minWaypointRelativePos": 2.522658610271917,
+      "maxWaypointRelativePos": 4.546827794561931,
+      "name": "Point Towards Zone"
+    },
+    {
+      "fieldPosition": {
+        "x": 13.5,
+        "y": 4.0
+      },
+      "rotationOffset": 0.0,
+      "minWaypointRelativePos": 0.4531722054380666,
+      "maxWaypointRelativePos": 2.069486404833837,
+      "name": "Point Towards Zone"
+    }
+  ],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 2.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "Wonky2",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "useDefaultConstraints": true
+}

@@ -1,0 +1,102 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.0,
+        "y": 4.0
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.0,
+        "y": 2.0
+      },
+      "isLocked": false,
+      "linkedName": "Behind Tag 18 Reef"
+    },
+    {
+      "anchor": {
+        "x": 10.6,
+        "y": 4.0
+      },
+      "prevControl": {
+        "x": 10.6,
+        "y": 2.0
+      },
+      "nextControl": {
+        "x": 10.6,
+        "y": 4.934
+      },
+      "isLocked": false,
+      "linkedName": "In Front of Oposite Reef"
+    },
+    {
+      "anchor": {
+        "x": 13.0,
+        "y": 6.5
+      },
+      "prevControl": {
+        "x": 11.0,
+        "y": 6.5
+      },
+      "nextControl": {
+        "x": 15.0,
+        "y": 6.5
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 14.54,
+        "y": 4.0
+      },
+      "prevControl": {
+        "x": 16.540000000000003,
+        "y": 3.9999999999999996
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "parked oposite_reef"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 3.0,
+      "rotationDegrees": 180.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [
+    {
+      "fieldPosition": {
+        "x": 13.0,
+        "y": 4.0
+      },
+      "rotationOffset": 0.0,
+      "minWaypointRelativePos": 0.25,
+      "maxWaypointRelativePos": 2.510574018126881,
+      "name": "Point Towards Zone"
+    }
+  ],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 2.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": 180.0
+  },
+  "reversed": false,
+  "folder": "Wonky2",
+  "idealStartingState": {
+    "velocity": 3.0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}
