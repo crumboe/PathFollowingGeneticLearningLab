@@ -58,8 +58,8 @@ class SwerveEnvironment:
         # Initialize pygame if rendering
         if self.render_mode:
             pygame.init()
-            self.screen = pygame.display.set_mode((self.width, self.height))
-            pygame.display.set_caption("Swerve Drive Simulation")
+            self.screen = pygame.Surface((self.width, self.height))
+            # pygame.display.set_caption("Swerve Drive Simulation")
             self.clock = pygame.time.Clock()
             self.font = pygame.font.Font(None, 24)
         
@@ -297,9 +297,9 @@ class SwerveEnvironment:
         self.draw_trajectory()
         self.draw_robot()
         self.draw_info()
-        
+        return pygame.surfarray.array3d(self.screen)
         # Update display
-        pygame.display.flip()
+        # pygame.display.flip()
     
     def handle_events(self):
         """Handle pygame events. Returns False if window should close."""
